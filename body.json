@@ -2,18 +2,18 @@
   "city_ids":[
     "1"
   ],
-  "source_view":"MAP_DISCOVERY_MAP",
+  "source_view":"FILTER",
   "disable_recommendation":false,
   "map_state":{
     "camera_info":{
       "bbox":{
-        "min_latitude":35.707817,
-        "min_longitude":51.291823,
-        "max_latitude":35.770656,
-        "max_longitude":51.386011
+        "min_latitude":35.688491,
+        "min_longitude":51.286893,
+        "max_latitude":35.77315,
+        "max_longitude":51.422739
       },
       "place_hash":"1||real-estate|",
-      "zoom":12.579650077056758
+      "zoom":12.024650677644413
     },
     "page_state":"HALF_STATE"
   },
@@ -24,28 +24,35 @@
           "repeated_float":{
             "value":[
               {
-                "value":51.2842407
+                "value":51.2868919
               },
               {
-                "value":35.7160263
+                "value":35.6884918
               },
               {
-                "value":51.3784294
+                "value":51.4227371
               },
               {
-                "value":35.7788582
+                "value":35.7731514
               }
             ]
           }
         },
         "credit":{
           "number_range":{
-            "maximum":"250000000"
+            "minimum":"50000000",
+            "maximum":"300000000"
+          }
+        },
+        "recent_ads":{
+          "str":{
+            "value":"12h"
           }
         },
         "rent":{
           "number_range":{
-            "maximum":"20000000"
+            "minimum":"6000000",
+            "maximum":"25000000"
           }
         },
         "category":{
@@ -61,11 +68,13 @@
         "data":{
           "sort":{
             "str":{
-              "value":"sort_date"
+              "value":"recommended"
             }
           }
         }
       }
     }
-  }
+  },
+  "previous_place_ids":[
+  ]
 }
